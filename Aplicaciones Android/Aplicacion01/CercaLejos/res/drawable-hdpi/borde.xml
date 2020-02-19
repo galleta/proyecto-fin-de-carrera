@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+   <stroke
+        android:width="2dip"
+        android:background="@color/marfil"
+        android:color="@android:color/black" />
+</shape>
+
+<!-- 
+	@author francis
+	Este fichero contiene el formato correspondiente para poner borde, por ejemplo,
+	a un layout
+-->

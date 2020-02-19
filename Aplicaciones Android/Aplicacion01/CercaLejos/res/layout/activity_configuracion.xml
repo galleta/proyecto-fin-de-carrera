@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/marfil"
+    tools:context=".Configuracion"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bCrearNinio"
+            style="@style/estiloletras"
+            android:contentDescription="@string/descripcion_crear_ninio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/bNuevoPerfil"
+            android:text="Crear nuevo niño"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/bNuevoPerfil"
+            style="@style/estiloletras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/bCrearNinio"
+            android:layout_toLeftOf="@+id/bVolverConfiguacion"
+            android:contentDescription="@string/descripcion_crear_actividad"
+            android:text="Crear nueva actividad"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bEliminarNinio"
+            style="@style/estiloletras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bNuevoPerfil"
+            android:layout_toRightOf="@+id/bVolverConfiguacion"
+            android:layout_weight="1"
+            android:contentDescription="@string/descripcion_eliminar_ninio"
+            android:text="Eliminar niño" />
+
+        <Button
+            android:id="@+id/bEliminarActividadConf"
+            style="@style/estiloletras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bModificarActividad"
+            android:layout_toRightOf="@+id/bVolverConfiguacion"
+            android:layout_weight="1"
+            android:contentDescription="@string/descripcion_eliminar_actividad"
+            android:text="Eliminar actividad" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bEvaluar"
+            style="@style/estiloletras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBaseline="@+id/bModificarActividad"
+            android:layout_alignBottom="@+id/bModificarActividad"
+            android:layout_alignLeft="@+id/bEliminarActividadConf"
+            android:layout_weight="1"
+            android:contentDescription="@string/descripcion_evaluar"
+            android:text="Consultar evaluación"/>
+
+        <Button
+            android:id="@+id/bModificarActividad"
+            style="@style/estiloletras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/bNuevoPerfil"
+            android:layout_toLeftOf="@+id/bVolverConfiguacion"
+            android:layout_weight="1"
+            android:contentDescription="@string/descripcion_modificar_actividad"
+            android:text="Modificar actividad" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bVolverConfiguacion"
+            style="@style/estiloletras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/bModificarActividad"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/descripcion_volver"
+            android:text="Volver" />
+    </LinearLayout>
+
+</LinearLayout>

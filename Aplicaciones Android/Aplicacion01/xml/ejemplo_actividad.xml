@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="NOMBREACTIVIDAD">actividad_juanito</string>
+    <string name="RUTACANCION01">/mnt/sdcard/cerca_lejos/barquito.mp3</string>
+    <boolean name="ESTAACTIVACANCION01">true</boolean>
+    <string name="RUTACANCION02">/mnt/sdcard/cerca_lejos/susanita.mp3</string>
+    <boolean name="ESTAACTIVACANCION02">true</boolean>
+    <string name="RUTACANCION03"> </string>
+    <boolean name="ESTAACTIVACANCION03">false</boolean>
+    <string name="RUTAAYUDA">/mnt/sdcard/cerca_lejos/ayuda.mp3</string>
+    <string name="TIPOESTIMULO">Volumen</string>
+    <string name="RUTADESCRIPCION">/mnt/sdcard/cerca_lejos/descripcion.mp3</string>
+    <boolean name="ESTAACTIVADESCRIPCION">true</boolean>
+</map>

@@ -1,0 +1,334 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@color/marfil"
+    tools:context=".Modificar_actividad"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/fila01NombreActividadModif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tNombreActividadModifAct"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Actividades:" />
+
+            <Spinner
+                android:id="@+id/spNombresActividadesModifAct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/frameLayout" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tDescripcionActividadModif"
+            style="@style/estiloletras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Descripción:" />
+
+        <Button
+            android:id="@+id/bDescripcionModif"
+            style="@style/estiloletras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Elegir" />
+
+        <ImageButton
+            android:id="@+id/ibGrabarDescripcionModif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/microfono" />
+
+        <ImageButton
+            android:id="@+id/ibEscucharDescripcionModif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/musical_note" />
+
+        <CheckBox
+            android:id="@+id/cbActivoDescripcionModif"
+            style="@style/estiloletras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Activar" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fila02Cancion01ModifAct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tCancion01ModifAct"
+                style="@style/estiloletras"
+                android:textSize="45sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Canción 1:" />
+
+            <Button
+                android:id="@+id/bCancion01ModifAct"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_cancion01_crear"
+                android:text="Elegir" />
+
+            <ImageButton
+                android:id="@+id/ibGrabarModif01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/microfono" />
+
+            <ImageButton
+                android:id="@+id/ibEscucharModif01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/musical_note" />
+
+            <CheckBox
+                android:id="@+id/cbActivo01ModifAct"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Activar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fila03Cancion02ModifAct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tCancion02ModifAct"
+                style="@style/estiloletras"
+                android:textSize="45sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Canción 2:" />
+
+            <Button
+                android:id="@+id/bCancion02ModifAct"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_cancion02_crear"
+                android:text="Elegir" />
+
+            <ImageButton
+                android:id="@+id/ibGrabarModif02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/microfono" />
+
+            <ImageButton
+                android:id="@+id/ibEscucharModif02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/musical_note" />
+
+            <CheckBox
+                android:id="@+id/cbActivo02ModifAct"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Activar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fila04Cancion03ModifAct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tCancion03ModifAct"
+                style="@style/estiloletras"
+                android:textSize="45sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Cancion 3:" />
+
+            <Button
+                android:id="@+id/bCancion03ModifAct"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_cancion03_crear"
+                android:text="Elegir" />
+
+            <ImageButton
+                android:id="@+id/ibGrabarModif03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/microfono" />
+
+            <ImageButton
+                android:id="@+id/ibEscucharModif03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/musical_note" />
+
+            <CheckBox
+                android:id="@+id/cbActivo03ModifAct"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Activar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fila05AyudaModifAct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tAyudaModifAct"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+                android:text="Ayuda:"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bAyudaModifAct"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_ayuda_crear"
+                android:text="Elegir" />
+
+            <ImageButton
+                android:id="@+id/ibGrabarModifAyuda"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/microfono" />
+
+            <ImageButton
+                android:id="@+id/ibEscucharModifAyuda"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/musical_note" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"></FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fila06EstimuloModifAct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tTipoEstimuloModifAct"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Estímulo:" />
+
+            <Spinner
+                android:id="@+id/cbTipoEstimuloModifAct"
+                android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/frameLayout2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow8ModifAct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/bAceptarNuevoPerfilModifAct"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_aceptar"
+                android:text="Modificar" />
+
+            <Button
+                android:id="@+id/bCancelarNuevoPerfilModifAct"
+                style="@style/estiloletras"
+                android:contentDescription="@string/descripcion_volver"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Volver"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+</LinearLayout>

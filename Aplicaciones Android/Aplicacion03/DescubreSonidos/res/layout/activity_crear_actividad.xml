@@ -1,0 +1,736 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/marfil"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".CrearActividad" >
+
+        <LinearLayout
+            android:id="@+id/fila01NombreActividad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tNombreActividad"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text="Actividad:"
+                android:textSize="@dimen/tamano_fuente" />
+
+        	<EditText
+        	    android:id="@+id/edNombreActividad"
+        	    style="@style/estiloletras"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="match_parent"
+        	    android:layout_weight="1"
+        	    android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/estiloletras"
+                android:textSize="@dimen/tamano_fuente"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Descripción:" />
+
+            <Button
+                android:id="@+id/bDescripcion"
+                style="@style/estiloletras"
+                android:textSize="@dimen/tamano_fuente"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Elegir" />
+
+            <ImageButton
+                android:id="@+id/ibGrabarDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/microfono" />
+
+            <ImageButton
+                android:id="@+id/ibEscucharDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/musical_note" />
+
+            <CheckBox
+                android:id="@+id/cbActivoDescripcion"
+                style="@style/estiloletras"
+                android:textSize="@dimen/tamano_fuente"
+                android:checked="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fila02Cancion01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tCancion01"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Sonido 1:"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bSonido01"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_cancion01_crear"
+                android:text="Elegir"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <ImageButton
+                android:id="@+id/ibGrabar01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/microfono" />
+
+            <ImageButton
+                android:id="@+id/ibEscuchar01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/musical_note" />
+
+            <CheckBox
+                android:id="@+id/cbActivoSonido01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <Button
+                android:id="@+id/bImagen01"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_imagen01_crear"
+                android:text="Imagen 1"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/ibHacerFoto01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/camara" />
+            
+            <ImageButton
+                android:id="@+id/ibVerImagen01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/gafas" />
+
+            <CheckBox
+                android:id="@+id/cbActivoImagen01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:textSize="@dimen/tamano_fuente" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/fila03Cancion02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tCancion02"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Sonido 2:"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bSonido02"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_cancion02_crear"
+                android:text="Elegir"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <ImageButton
+                android:id="@+id/ibGrabar02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/microfono" />
+
+            <ImageButton
+                android:id="@+id/ibEscuchar02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/musical_note" />
+
+            <CheckBox
+                android:id="@+id/cbActivoSonido02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <Button
+                android:id="@+id/bImagen02"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Imagen 2"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/ibHacerFoto02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/camara" />
+            
+            <ImageButton
+                android:id="@+id/ibVerImagen02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/gafas" />
+
+            <CheckBox
+                android:id="@+id/cbActivoImagen02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:contentDescription="@string/descripcion_boton_imagen02_crear"
+                android:textSize="@dimen/tamano_fuente" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/fila04Cancion03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tCancion03"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Sonido 3:"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bSonido03"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_cancion03_crear"
+                android:text="Elegir"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <ImageButton
+                android:id="@+id/ibGrabar03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/microfono" />
+
+            <ImageButton
+                android:id="@+id/ibEscuchar03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/musical_note" />
+
+            <CheckBox
+                android:id="@+id/cbActivoSonido03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <Button
+                android:id="@+id/bImagen03"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Imagen 3"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/ibHacerFoto03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/camara" />
+            
+            <ImageButton
+                android:id="@+id/ibVerImagen03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/gafas" />
+
+            <CheckBox
+                android:id="@+id/cbActivoImagen03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:contentDescription="@string/descripcion_boton_imagen03_crear"
+                android:textSize="@dimen/tamano_fuente" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/fila05Cancion04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tCancion04"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Sonido 4:"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bSonido04"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_cancion04_crear"
+                android:text="Elegir"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <ImageButton
+                android:id="@+id/ibGrabar04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/microfono" />
+
+            <ImageButton
+                android:id="@+id/ibEscuchar04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/musical_note" />
+
+            <CheckBox
+                android:id="@+id/cbActivoSonido04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <Button
+                android:id="@+id/bImagen04"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Imagen 4"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/ibHacerFoto04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/camara" />
+            
+            <ImageButton
+                android:id="@+id/ibVerImagen04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/gafas" />
+
+            <CheckBox
+                android:id="@+id/cbActivoImagen04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:contentDescription="@string/descripcion_boton_imagen04_crear"
+                android:textSize="@dimen/tamano_fuente" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/fila06Cancion05"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tCancion05"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Sonido 5:"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bSonido05"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_cancion05_crear"
+                android:text="Elegir"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <ImageButton
+                android:id="@+id/ibGrabar05"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/microfono" />
+
+            <ImageButton
+                android:id="@+id/ibEscuchar05"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/musical_note" />
+
+            <CheckBox
+                android:id="@+id/cbActivoSonido05"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <Button
+                android:id="@+id/bImagen05"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_imagen05_crear"
+                android:text="Imagen 5"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/ibHacerFoto05"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/camara" />
+            
+            <ImageButton
+                android:id="@+id/ibVerImagen05"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/gafas" />
+
+            <CheckBox
+                android:id="@+id/cbActivoImagen05"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:textSize="@dimen/tamano_fuente" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/fila07Cancion06"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tCancion06"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Sonido 6:"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bSonido06"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_cancion06_crear"
+                android:text="Elegir"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <ImageButton
+                android:id="@+id/ibGrabar06"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/microfono" />
+
+            <ImageButton
+                android:id="@+id/ibEscuchar06"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/musical_note" />
+
+            <CheckBox
+                android:id="@+id/cbActivoSonido06"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <Button
+                android:id="@+id/bImagen06"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Imagen 6"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/ibHacerFoto06"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/camara" />
+            
+            <ImageButton
+                android:id="@+id/ibVerImagen06"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/gafas" />
+
+            <CheckBox
+                android:id="@+id/cbActivoImagen06"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:textSize="@dimen/tamano_fuente" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fila05Ayuda"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tAyuda"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+                android:text="Ayuda:"
+                android:textSize="@dimen/tamano_fuente"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bAyuda"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_ayuda_crear"
+                android:text="Elegir"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <ImageButton
+                android:id="@+id/ibGrabarAyuda"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/microfono" />
+
+            <ImageButton
+                android:id="@+id/ibEscucharAyuda"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/musical_note" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"></FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fila07EstimulosPositivos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tEstimuloPositivo"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Refuerzos positivos:"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <Button
+                android:id="@+id/bEstimuloPositivo"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_estimulo_p_crear"
+                android:text="Elegir"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <TextView
+                android:id="@+id/tCantidadEstimulosPositivos"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="0 refuerzos"
+                android:textSize="@dimen/tamano_fuente" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fila08EstimuloNegativo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tEstimuloNegativo"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Refuerzo negativo:"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <Button
+                android:id="@+id/bEstimuloNegativo"
+                style="@style/estiloletras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/descripcion_boton_estimulo_n_crear"
+                android:text="Elegir"
+                android:textSize="@dimen/tamano_fuente" />
+
+            <CheckBox
+                android:id="@+id/cbEstimuloNegativo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:textSize="@dimen/tamano_fuente" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/bAceptarNuevoPerfil"
+                style="@style/estiloletras"
+                android:contentDescription="@string/descripcion_boton_aceptar"
+                android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+                android:text="Aceptar"
+                android:textSize="@dimen/tamano_fuente"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bCancelarNuevoPerfil"
+                style="@style/estiloletras"
+                android:contentDescription="@string/descripcion_volver"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Volver"
+                android:textSize="@dimen/tamano_fuente"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+    
+    <supertooltip.ToolTipRelativeLayout
+        android:id="@+id/layout_tooltip_crear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

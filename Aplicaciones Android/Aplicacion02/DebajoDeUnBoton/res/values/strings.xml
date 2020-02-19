@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hacer_musica</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+    <string name="title_activity_crear_perfil_debajo_boton">CrearPerfilDebajoBoton</string>
+    <string name="title_activity_calificar">Calificar</string>
+    <string name="title_activity_crear_ninio">CrearNinio</string>
+    <string name="title_activity_juego_debajo_boton">JuegoDebajoBoton</string>
+    <string name="no_actividades_creadas">No datos</string>
+    <string name="no_ninios_creados">No datos</string>
+    <string name="no_ninio">No datos</string>
+    <string name="no_datos">No datos</string>
+    <string name="no_actividad">No datos</string>
+    <string name="no_fechas">No fechas</string>
+    <string name="no_sonido_seleccionado">No se ha seleccionado sonido</string>
+    <string name="no_imagen_seleccionada">No se ha seleccionado imagen</string>
+    <string name="ruta_ficheros_xml">/data/data/com.example.debajodeunboton/shared_prefs/</string>
+    <string name="configuracion_ninio">ConfiguracionNinio</string>
+    <string name="configuracion_evaluacion">ConfiguracionEvaluacion</string>
+    <string name="configuracion_actividad">ConfiguracionActividad</string>
+    <string name="title_activity_modificar_actividad">Modificar_actividad</string>
+    <string name="BORRADO_CASCADA_NINIO_EVALUACION">TRUE</string>
+    <string name="BORRADO_CASCADA_EVALUACION_NINIO">TRUE</string>
+    <string name="title_activity_shortcut">ShortcutActivity</string>
+    <string name="title_activity_evaluar">Evaluar</string>
+    <string name="texto_etiqueta_ninio_principal">Niños:</string>
+    <string name="texto_etiqueta_actividades_principal">Actividades:</string>
+    <string name="boton_iniciar">Iniciar</string>
+    <string name="title_activity_eliminar_ninio">EliminarNinio</string>
+    <string name="title_activity_eliminar_actividad">EliminarActividad</string>
+    <string name="title_activity_comentar_actividad">ComentarActividad</string>
+
+</resources>

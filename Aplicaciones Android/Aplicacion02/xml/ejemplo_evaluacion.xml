@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <integer name="TOTALEVALUACIONES">1</string>
+    <string name="FECHA1">2014-03-28T20:03:07</string>
+    <string name="horastotal_2014-03-28T20:03:07">0</string>
+    <string name="minutostotal_2014-03-28T20:03:07">12</string>
+    <string name="segundostotal_2014-03-28T20:03:07">01</string>
+    <string name="aciertos_2014-03-28T20:03:07">0</string>
+    <string name="fallos_2014-03-28T20:03:07">3</string>
+</map>

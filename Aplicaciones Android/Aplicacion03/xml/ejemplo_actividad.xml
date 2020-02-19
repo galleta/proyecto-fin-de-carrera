@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="NOMBREACTIVIDAD">actividad_juanito</string>
+    <string name="RUTACANCION01">/mnt/sdcard/descubre_sonidos/trozo01.mp3</string>
+    <boolean name="ESTAACTIVACANCION01">true</boolean>
+    <string name="RUTACANCION02">/mnt/sdcard/descubre_sonidos/trozo02.mp3</string>
+    <boolean name="ESTAACTIVACANCION02">true</boolean>
+    <string name="RUTACANCION03">/mnt/sdcard/descubre_sonidos/trozo03.mp3</string>
+    <boolean name="ESTAACTIVACANCION03">true</boolean>
+    <string name="RUTACANCION04">/mnt/sdcard/descubre_sonidos/trozo04.mp3</string>
+    <boolean name="ESTAACTIVACANCION04">true</boolean>
+    <string name="RUTACANCION05">/mnt/sdcard/descubre_sonidos/trozo05.mp3</string>
+    <boolean name="ESTAACTIVACANCION05">true</boolean>
+    <string name="RUTACANCION06">/mnt/sdcard/descubre_sonidos/trozo06.mp3</string>
+    <boolean name="ESTAACTIVACANCION06">true</boolean>
+    <string name="RUTAAYUDA">/mnt/sdcard/descubre_sonidos/ayuda.mp3</string>
+    <string name="RUTAIMAGEN01"> </string>
+    <boolean name="ESTAACTIVAIMAGEN01">false</boolean>
+    <string name="RUTAIMAGEN02"> </string>
+    <boolean name="ESTAACTIVAIMAGEN02">false</boolean>
+    <string name="RUTAIMAGEN03"> </string>
+    <boolean name="ESTAACTIVAIMAGEN03">false</boolean>
+    <string name="RUTAIMAGEN04"> </string>
+    <boolean name="ESTAACTIVAIMAGEN04">false</boolean>
+    <string name="RUTAIMAGEN05"> </string>
+    <boolean name="ESTAACTIVAIMAGEN05">false</boolean>
+    <string name="RUTAIMAGEN06"> </string>
+    <boolean name="ESTAACTIVAIMAGEN06">false</boolean>
+    <string name="RUTAAYUDA">/mnt/sdcard/descubre_sonidos/ayuda.mp3</string>
+    <integer name="CANTIDADREFUERZOSPOSITIVOS">2</integer>
+    <string name="RUTAREFUERZOPOSITIVO00">/mnt/sdcard/descubre_sonidos/muybien.mp3</string>
+    <string name="RUTAREFUERZOPOSITIVO01">/mnt/sdcard/descubre_sonidos/estupendo.mp3</string>
+    <string name="RUTAREFUERZONEGATIVO">/mnt/sdcard/descubre_sonidos/vuelve_a_intentarlo.mp3</string>
+    <boolean name="ESTAACTIVOREFUERZONEGATIVO">true</boolean>
+    <string name="RUTADESCRIPCION">/mnt/sdcard/descubre_sonidos/descripcion.mp3</string>
+    <boolean name="ESTAACTIVADESCRIPCION">true</boolean>
+</map>

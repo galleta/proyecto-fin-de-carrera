@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="descripcion_boton_profesor">Botón para ir al modo tutor y poder gestionar la aplicación</string>
+    <string name="descripcion_boton_salir">Salir de la aplicación</string>
+    <string name="descripcion_imagen_app">Imagen con el nombre de la aplicación</string>
+    <string name="descripcion_imagen_iniciar">Inicia aplicación</string>
+    <string name="descripcion_crear_ninio">Registra un niño nuevo</string>
+    <string name="descripcion_eliminar_ninio">Elimina el registro de un niño</string>
+    <string name="descripcion_crear_actividad">Crea una nueva actividad</string>
+    <string name="descripcion_modificar_actividad">Modifica la actividad seleccionada</string>
+    <string name="descripcion_eliminar_actividad">Elimina una actividad existente</string>
+    <string name="descripcion_evaluar">Ver las estadísticas de un niño en una actividad</string>
+    <string name="descripcion_volver">Vuelve para atrás</string>
+    <string name="descripcion_boton_cancion01_crear">Elegir la canción 01 para la actividad</string>
+    <string name="descripcion_boton_cancion02_crear">Elegir la canción 02 para la actividad</string>
+    <string name="descripcion_boton_cancion03_crear">Elegir la canción 03 para la actividad</string>
+    <string name="descripcion_boton_cancion04_crear">Elegir la canción 04 para la actividad</string>
+    <string name="descripcion_boton_cancion05_crear">Elegir la canción 05 para la actividad</string>
+    <string name="descripcion_boton_cancion06_crear">Elegir la canción 06 para la actividad</string>
+    <string name="descripcion_boton_imagen01_crear">Elegir la imagen 01 para la actividad</string>
+    <string name="descripcion_boton_imagen02_crear">Elegir la imagen 02 para la actividad</string>
+    <string name="descripcion_boton_imagen03_crear">Elegir la imagen 03 para la actividad</string>
+    <string name="descripcion_boton_imagen04_crear">Elegir la imagen 04 para la actividad</string>
+    <string name="descripcion_boton_imagen05_crear">Elegir la imagen 05 para la actividad</string>
+    <string name="descripcion_boton_imagen06_crear">Elegir la imagen 06 para la actividad</string>
+    <string name="descripcion_boton_ayuda_crear">Elegir la ayuda de la actividad</string>
+    <string name="descripcion_boton_estimulo_p_crear">Elegir un refuerzo positivo para la actividad</string>
+    <string name="descripcion_boton_estimulo_n_crear">Elegir el refuerzo negativo para la actividad</string>
+    <string name="descripcion_boton_aceptar">Aceptar</string>
+    <string name="descripcion_boton_eliminar_actividad">Elimina una actividad existente</string>
+    <string name="descripcion_boton_cerrar_juego">Cierra la actividad y vuelve a la pantalla principal</string>
+    <string name="descripcion_boton_ayuda_actividad">Activa la ayuda de la actividad</string>
+</resources>

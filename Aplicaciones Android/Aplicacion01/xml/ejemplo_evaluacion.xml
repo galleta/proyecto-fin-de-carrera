@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <integer name="TOTALEVALUACIONES">1</string>
+    <string name="FECHA1">2014-03-28T20:03:07</string>
+    <string name="horasfila01_2014-03-28T20:03:07">0</string>
+    <string name="horasfila02_2014-03-28T20:03:07">0</string>
+    <string name="horasfila03_2014-03-28T20:03:07">/0</string>
+    <string name="minutosfila01_2014-03-28T20:03:07">1</string>
+    <string name="minutosfila02_2014-03-28T20:03:07">0</string>
+    <string name="minutosfila03_2014-03-28T20:03:07">2</string>
+    <string name="segundosfila01_2014-03-28T20:03:07">15</string>
+    <string name="segundosfila02_2014-03-28T20:03:07">23</string>
+    <string name="segundosfila03_2014-03-28T20:03:07">/0</string>
+    <string name="horastotal_2014-03-28T20:03:07">0</string>
+    <string name="minutostotal_2014-03-28T20:03:07">12</string>
+    <string name="segundostotal_2014-03-28T20:03:07">01</string>
+    <string name="desviosfila01_2014-03-28T20:03:07">0</string>
+    <string name="desviosfila02_2014-03-28T20:03:07">3</string>
+    <string name="desviosfila03_2014-03-28T20:03:07">2</string>
+    <integer name="comentario_2014-03-28T20:03:07"> Muy bien </integer>
+    <integer name="rating_2014-03-28T20:03:07">4</integer>
+</map>

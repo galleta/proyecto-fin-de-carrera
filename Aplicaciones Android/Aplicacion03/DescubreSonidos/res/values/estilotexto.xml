@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <style name="estiloletras"
+     parent="@android:style/TextAppearance.Medium">
+       <item name="android:textColor">@color/letras_programa</item>
+       <item name="android:textSize">45sp</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:gravity">center</item>
+   </style>
+</resources>

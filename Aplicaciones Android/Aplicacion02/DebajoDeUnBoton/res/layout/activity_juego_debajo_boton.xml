@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    android:orientation="horizontal" >
+
+    <!-- Este layout es donde se va a jugar -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/layoutJuego"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/fila01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ibElemento01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/agua"
+                android:contentDescription="@string/descripcion_boton_imagen" />
+
+            <ImageButton
+                android:id="@+id/ibElemento02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/amarillo"
+                android:contentDescription="@string/descripcion_boton_imagen" />
+
+            <ImageButton
+                android:id="@+id/ibElemento03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/letras_programa"
+                android:contentDescription="@string/descripcion_boton_imagen" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fila02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ibElemento04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/gris"
+                android:contentDescription="@string/descripcion_boton_imagen" />
+
+            <ImageButton
+                android:id="@+id/ibElemento05"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/marron"
+                android:contentDescription="@string/descripcion_boton_imagen" />
+
+            <ImageButton
+                android:id="@+id/ibElemento06"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/lima"
+                android:contentDescription="@string/descripcion_boton_imagen" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Este layout es donde va a estar la zona de calificación del tutor -->
+
+    <RelativeLayout
+        android:id="@+id/layoutCalificaciones"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="12">
+
+        <RelativeLayout
+            android:id="@+id/layoutCerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/cancelar" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutAyuda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ayuda"
+            android:gravity="center" >
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

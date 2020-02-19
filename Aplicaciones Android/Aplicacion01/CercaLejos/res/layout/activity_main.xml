@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/marfil"
+    tools:context=".MainActivity" >
+
+        <ImageButton
+            android:id="@+id/bModoProfesor"
+            android:contentDescription="@string/descripcion_boton_profesor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/llave_inglesa"
+            android:background="@drawable/borde" />
+
+        <ImageButton
+            android:id="@+id/bSalirAplicacion"
+            android:contentDescription="@string/descripcion_boton_salir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/cancelar"
+            android:background="@drawable/borde" />
+
+        <ImageView
+            android:id="@+id/iNombreAplicacion"
+            android:contentDescription="@string/descripcion_imagen_app"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/tamano_imagen"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/nombre_aplicacion"
+            android:layout_marginTop="@dimen/margen" />
+
+    <LinearLayout
+        android:id="@+id/central"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iNombreAplicacion"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tNombreNinioPrincipal"
+                style="@style/estiloletras"
+                android:textSize="30pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/iNombreAplicacion"
+                android:text="@string/texto_etiqueta_ninio_principal"/>
+
+            <Spinner
+                    android:id="@+id/spNombreNinio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView2"
+                    android:layout_alignLeft="@+id/textView2"
+                    android:layout_alignStart="@+id/textView2"
+                    android:layout_alignRight="@+id/textView2"
+                    android:layout_alignEnd="@+id/textView2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/estiloletras"
+                android:textSize="30pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/spNombreActividad"
+                android:layout_alignEnd="@+id/iNombreAplicacion"
+                android:layout_alignRight="@+id/iNombreAplicacion"
+                android:text="@string/texto_etiqueta_actividades_principal"/>
+
+            <Spinner
+                    android:id="@+id/spNombreActividad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tNombreNinioPrincipal"
+                    android:layout_alignRight="@+id/tNombreNinioPrincipal"
+                    android:layout_alignEnd="@+id/tNombreNinioPrincipal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bIniciar"
+        style="@style/estiloletras"
+        android:textSize="30pt"
+        android:contentDescription="@string/descripcion_imagen_iniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde"
+        android:gravity="center"
+        android:text="@string/boton_iniciar"
+        android:layout_above="@+id/bModoProfesor"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

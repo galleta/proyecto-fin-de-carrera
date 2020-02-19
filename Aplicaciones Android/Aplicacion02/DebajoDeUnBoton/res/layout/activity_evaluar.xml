@@ -1,0 +1,296 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/marfil"
+    tools:context=".Evaluar"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tNinio"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Niño:"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/spNinioEvaluacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tActividad"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actividad:"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/spActividadEvalucion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tFecha"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Fechas:" />
+
+        <Spinner
+            android:id="@+id/spFechaEvaluacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tAciertosEvaluacion"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aciertos:" />
+
+        <EditText
+            android:id="@+id/edAciertosEvaluacion"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tFallosEvaluacion"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fallos:" />
+
+        <EditText
+            android:id="@+id/edFallosEvaluacion"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tVecesEscuchado"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escuchado:"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/edVecesEscuchado"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tModo02"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modo:"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tOrdenes02"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Orden:" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tTiempoRealizacion"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiempo de realización:" />
+
+        <EditText
+            android:id="@+id/edTiempoRealizacion"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="0" />
+        
+        <TextView
+            android:id="@+id/tPuntuacion"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puntuación: " />
+
+        <RatingBar
+            android:id="@+id/rbPuntuacionMostrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="1.0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5" >
+
+        <TextView
+            android:id="@+id/tComentario"
+            style="@style/estiloletras"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comentario: " />
+        
+        <ScrollView 
+            android:id="@+id/ScrollComentarioMostrar"
+			android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+			<TextView
+			    android:id="@+id/tComentarioMostrar"
+			    style="@style/estiloletras"
+			    android:textSize="40sp"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content" >
+			</TextView>
+		</ScrollView>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/estiloletras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.15"
+            android:text="Desde:" />
+
+        <Spinner
+            android:id="@+id/spInicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/estiloletras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasta:" />
+
+        <Spinner
+            android:id="@+id/spHasta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/bCancelarCalif"
+            style="@style/estiloletras"
+            android:contentDescription="@string/descripcion_volver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:textSize="35dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+        
+        <com.androidplot.xy.XYPlot
+    		android:id="@+id/layoutmostrargrafico"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"/>
+        
+    </LinearLayout>
+
+</LinearLayout>
